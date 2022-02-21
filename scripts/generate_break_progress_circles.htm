@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f0f;
+        }
+    </style>
+    <script>
+        var lastend = -80;
+        var data = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
+        var myTotal = 0;
+
+        var myColor = ['#299731', '#4e8d13', '#658300', '#767800', '#846c00', '#8f6000', '#975200', '#9c450d', '#9e371e', '#9d292c'];
+
+        var labels = ['10', '20', '30', '40', '50', '60', '70', '80', '90', '100'];
+
+        for (var e = 0; e < data.length; e++) {
+            myTotal += data[e];
+        }
+
+        function drawChart(limit = false) {
+            currentOffset = -Math.PI/2;
+            console.log(data);
+
+            var canvas = document.getElementById("circle_container");
+            var ctx = canvas.getContext("2d");
+
+            // clear canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // make the chart 10 px smaller to fit on canvas
+            var off = 10
+            var w = (canvas.width - off) / 2
+            var h = (canvas.height - off) / 2
+            for (var i = 0; i < data.length; i++) {
+                if (limit !== false && i < limit) {
+                    ctx.fillStyle = myColor[limit];
+                    console.log(i);
+                } else if (limit !== false && i > limit) {
+                    // transparent
+                    ctx.fillStyle = 'rgba(0,0,0,0)';
+                } else {
+                    ctx.fillStyle = myColor[i];
+                }
+                ctx.strokeStyle = 'white';
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.moveTo(w, h);
+                var len = (data[i] / myTotal) * 2 * Math.PI
+                var r = h - off / 2
+                ctx.arc(w, h, r, currentOffset, currentOffset + len, false);
+                ctx.lineTo(w, h);
+                ctx.fill();
+                ctx.stroke();
+                /*
+                ctx.fillStyle = 'white';
+                ctx.font = "20px Minecraftia";
+                ctx.textAlign = "center";
+                ctx.textBaseline = "middle";
+                var mid = currentOffset + len / 2
+                ctx.fillText(labels[i], w + Math.cos(mid) * (r / 2), h + Math.sin(mid) * (r / 2));
+                */
+                currentOffset += Math.PI * 2 * (data[i] / myTotal);
+            }
+
+            setImage();
+        }
+
+        function setImage(){
+            var canvas = document.getElementById("circle_container");
+            var img = document.getElementById("image");
+            img.src = canvas.toDataURL("image/png");
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <div style="display: flex;">
+        <canvas id="circle_container" height="128" width="128" style="outline: 1px solid black"></canvas>
+        <img id="image">
+    </div>
+
+    <script>
+        drawChart(false);
+    </script>
+
+</body>
+
+</html>
