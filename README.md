@@ -2,7 +2,7 @@
 
 <h1 align="center">
   Fartpack<hr>
-  <img src="packroot/pack.png" alt="Fartpack Logo" width="400"></a>
+  <img src="branding/github_banner.png" alt="Fartpack Logo" width="400"></a>
 </h1>
 <h2 align="center">Welcome to the new Minecraft Crystal PvP meta.</h2>
 
