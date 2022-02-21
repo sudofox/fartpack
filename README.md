@@ -2,6 +2,16 @@
   <img src="branding/github_banner.png" alt="Fartpack Logo" width="400"></a>
 </h1>
 <h2 align="center">Welcome to the new Minecraft Crystal PvP meta.</h2>
+<p align="center">
+  <img src="https://img.shields.io/badge/MC-1.12.2-brightgreen.svg" alt="Minecraft"/></a>
+  <img src="https://img.shields.io/badge/MC-1.13.2-yellow.svg" alt="Minecraft"/></a>
+  <img src="https://img.shields.io/badge/MC-1.14.4-yellow.svg" alt="Minecraft"/></a>
+  <img src="https://img.shields.io/badge/MC-1.15.2-yellow.svg" alt="Minecraft"/></a>
+  <img src="https://img.shields.io/badge/MC-1.16.5-yellow.svg" alt="Minecraft"/></a>
+  <img src="https://img.shields.io/badge/MC-1.17.1-brightgreen.svg" alt="Minecraft"/></a>
+  <img src="https://img.shields.io/badge/MC-1.18.1-brightgreen.svg" alt="Minecraft"/></a>
+</p>
+<p align="center"><img src="https://img.shields.io/github/downloads/sudofox/fartpack/total.svg"></p>
 
 Fartpack is extremely lightweight, hilarious, and pulls no punches.
 Fartpack is rapidly improving; a release candidate is available for testing.
