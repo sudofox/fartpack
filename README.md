@@ -1,9 +1,6 @@
 # sudofox/fartpack
 
-<h1 align="center">
-  Fartpack<hr>
-  <img src="branding/github_banner.png" alt="Fartpack Logo" width="400"></a>
-</h1>
+
 <h2 align="center">Welcome to the new Minecraft Crystal PvP meta.</h2>
 
 Fartpack is extremely lightweight, hilarious, and pulls no punches.
@@ -12,10 +9,11 @@ Fartpack is rapidly improving; a release candidate is available for testing.
 
 ## Version support
 
-- Minimum tested version: 1.12.2
+- Minimum tested version: 1.12.2 *Not tested with firework sounds.
 - Maximum tested version: 1.18.1
 
-This pack uses resourcepack format 4, but has a few tweaks to make it work with older versions such as 1.12.2.
+This pack uses resourcepack format 4, but has a few tweaks to make it work with older versions such as 1.12.2.                                                    
+*I'll be (or at least try to be) working closely with Sudofox to keep it this way.
 
 ## Features
 
