@@ -10,6 +10,7 @@
   <img src="https://img.shields.io/badge/MC-1.16.5-yellow.svg" alt="Minecraft"/>
   <img src="https://img.shields.io/badge/MC-1.17.1-brightgreen.svg" alt="Minecraft"/>
   <img src="https://img.shields.io/badge/MC-1.18.1-brightgreen.svg" alt="Minecraft"/>
+  <img src="https://img.shields.io/badge/MC-1.18.2-brightgreen.svg" alt="Minecraft"/>
 </p>
 <p align="center"><img src="https://img.shields.io/github/downloads/sudofox/fartpack/total.svg" alt="Download count"></p>
 
