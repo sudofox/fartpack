@@ -29,7 +29,7 @@ Fartpack is rapidly improving; a release candidate is available for testing.
 ## Version support
 
 - Minimum tested version: 1.12.2
-- Maximum tested version: 1.18.1
+- Maximum tested version: 1.18.2
 
 This pack uses resourcepack format 4, but has a few tweaks to make it work with older versions such as 1.12.2.
 
