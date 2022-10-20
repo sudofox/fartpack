@@ -8,9 +8,9 @@
   <img src="https://img.shields.io/badge/MC-1.14.4-yellow.svg" alt="Minecraft"/>
   <img src="https://img.shields.io/badge/MC-1.15.2-yellow.svg" alt="Minecraft"/>
   <img src="https://img.shields.io/badge/MC-1.16.5-yellow.svg" alt="Minecraft"/>
-  <img src="https://img.shields.io/badge/MC-1.17.1-brightgreen.svg" alt="Minecraft"/>
-  <img src="https://img.shields.io/badge/MC-1.18.1-brightgreen.svg" alt="Minecraft"/>
-  <img src="https://img.shields.io/badge/MC-1.18.2-brightgreen.svg" alt="Minecraft"/>
+  <img src="https://img.shields.io/badge/MC-1.17.x-brightgreen.svg" alt="Minecraft"/>
+  <img src="https://img.shields.io/badge/MC-1.18.x-brightgreen.svg" alt="Minecraft"/>
+  <img src="https://img.shields.io/badge/MC-1.19.x-brightgreen.svg" alt="Minecraft"/>
 </p>
 <p align="center"><img src="https://img.shields.io/github/downloads/sudofox/fartpack/total.svg" alt="Download count"></p>
 
@@ -29,7 +29,7 @@ Fartpack is rapidly improving; a release candidate is available for testing.
 ## Version support
 
 - Minimum tested version: 1.12.2
-- Maximum tested version: 1.18.2
+- Maximum tested version: 1.19.2
 
 This pack uses resourcepack format 4, but has a few tweaks to make it work with older versions such as 1.12.2.
 
